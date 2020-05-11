@@ -8,7 +8,7 @@
 
 ## Abstract   
 
-We present a learning strategy to build digital twins that emulate the sloshing dynamics of a fluid in realtime. We train a physically sound integrator from pseudo-experimental data obtained from Abaqus simulations. The model is implemented to interact online with a real glass, and presents the results of the virtual fluid with augmented reality. Realtime calculations are perfomed in a low dimensional space reached through the use of a-posteriori model order reduction techniques (k-PCA in this case). In addition, the have trained a random forest classificator from the whole dataset the learn to classidy our fluids and be able to distinguish the real liquid perceived from a few video frames. 
+We present a learning strategy to build digital twins that emulate the sloshing dynamics of a fluid in realtime. We train a physically sound integrator from pseudo-experimental data obtained from Abaqus simulations. The model is implemented to interact online with a real glass, and presents the results of the virtual fluid with augmented reality. Realtime calculations are perfomed in a low dimensional space reached through the use of a-posteriori model order reduction techniques (k-PCA in this case). In addition, we have trained a random forest classificator with the whole dataset to learn to classify our fluids and be able to distinguish the real liquid perceived. 
 
 
 ## Software  
