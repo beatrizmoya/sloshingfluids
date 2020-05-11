@@ -8,14 +8,14 @@
 
 ## Abstract   
 
-We present a learning strategy to build digital twins that emulate the sloshing dynamics of a fluid in realtime. We train a physically sound integrator from pseudo-experimental data obtained from Abaqus simulations. The model is implemented to interact online with a real glass, and present the results of the virtual fluid with augmented reality. Realtime calculations are perfomed in a low dimensional space reached through the use of a-posteriori model order reduction techniques (k-PCA in this case). In addition, the have trained a random forest classificator from the whole dataset the learn to classidy our fluids and be able to distinguish the real liquid perceived from a few video frames. 
+We present a learning strategy to build digital twins that emulate the sloshing dynamics of a fluid in realtime. We train a physically sound integrator from pseudo-experimental data obtained from Abaqus simulations. The model is implemented to interact online with a real glass, and presents the results of the virtual fluid with augmented reality. Realtime calculations are perfomed in a low dimensional space reached through the use of a-posteriori model order reduction techniques (k-PCA in this case). In addition, the have trained a random forest classificator from the whole dataset the learn to classidy our fluids and be able to distinguish the real liquid perceived from a few video frames. 
 
 
 ## Software  
 _Note that off-line processing has been performed with MATLAB2017b
 
 ## Downloads
-The dataset of each fluid consists of the state variables measured obtained from the Abaqus simulation of the sloshing dynamics under different initial conditions. Four sloshing cases have been simulated for each fluid. 
+The dataset of each fluid consists of the state variables obtained from Abaqus simulations of the sloshing dynamics under different initial conditions. Four sloshing cases have been simulated for each fluid. 
 
 
 - [Water](https://drive.google.com/file/d/16VxiqHZsu-Onss1g3itF0lVUy53-5mxF/view?usp=sharing)
@@ -30,9 +30,7 @@ The dataset of each fluid consists of the state variables measured obtained from
 
 ## Training the model
 
-We have performed simulations aplying the smooth particle hydrodynamics theory. Each column vector of the matrices available corresponds to the state variables that we employ in the model at a discrete time step. The state variables that we need are the 3D position, the 3D velocity, the internal energy, and the stress tensor of each particle. 
-
-Since the fluid has been discretized in 2134 particles, the full dimensionality of the problem is 27742.
+We have performed simulations aplying the smooth particle hydrodynamics theory. Each column vector of the matrices available corresponds to the state variables that we employ in the model at discrete time steps. These state variables are the 3D position, the 3D velocity, the internal energy, and the stress tensor evaluated at each particle. Since the fluid has been discretized in 2134 particles, the full dimensionality of the problem is 27742.
 
 
 ### For training each fluid's simulator
@@ -48,12 +46,7 @@ In this case, model order reduction techniques are applied over the whole datase
 
 ## Results 
 
-
-
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=d1JyhPNkLkU
-v=YOUTUBE_VIDEO_ID_HERE)
-
-
+The video attached summarizes the techniques, and shows implementation recordings of the digital twin.
 
 </div>
 
