@@ -37,8 +37,10 @@ We have performed simulations aplying the smooth particle hydrodynamics theory. 
 
 The data base is projected to a low-order manifold where we learn the GENERIC structure of the problem to perform machine learning that fulfills the first and second laws of thermodynamics.
 
+<div align="center">  
 <img width="1265" alt="video_water" src="https://user-images.githubusercontent.com/65158632/81586504-e515db80-93b5-11ea-8d11-93c700ab0f5f.png">
-
+  
+</div>
 ### For training the classificator
 
 In this case, model order reduction techniques are applied over the whole dataset to learn a random forest classificator. 
@@ -48,21 +50,10 @@ In this case, model order reduction techniques are applied over the whole datase
 
 Please, follow the [link](https://www.youtube.com/watch?v=d1JyhPNkLkU) to the  see results video of the implementation of the digital twin.
 
+<div align="center">  
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/65158632/81592142-c582b100-93bd-11ea-9cc8-1a781a1dd2ea.gif)
 
 </div>
 
 ## Citation   
-If you found this information useful please cite our work as:
-```
-@article{moya2019learning,
-  title={Learning slosh dynamics by means of data},
-  author={Moya, Beatriz and Gonz{\'a}lez, David and Alfaro, Ic{\'\i}ar and Chinesta, Francisco and Cueto, E},
-  journal={Computational Mechanics},
-  volume={64},
-  number={2},
-  pages={511--523},
-  year={2019},
-  publisher={Springer}
-}
-```   
+
