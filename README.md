@@ -46,7 +46,9 @@ In this case, model order reduction techniques are applied over the whole datase
 
 ## Results 
 
-The video attached summarizes the techniques, and shows implementation recordings of the digital twin.
+Please, follow the [link](https://www.youtube.com/watch?v=d1JyhPNkLkU) to the  see results video of the implementation of the digital twin.
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/65158632/81592142-c582b100-93bd-11ea-9cc8-1a781a1dd2ea.gif)
 
 </div>
 
