@@ -55,3 +55,6 @@ Please, follow the [link](https://www.youtube.com/watch?v=d1JyhPNkLkU) to the  s
 
 ## Citation   
 
+Moya B, Alfaro I, Gonzalez D, Chinesta F, Cueto E (2020) Physically sound, self-learning digital twins for sloshing fluids. PLoS ONE 15(6): e0234569. https://doi.org/10.1371/journal.pone.0234569
+
+
