@@ -1,7 +1,7 @@
 <div align="center">  
   
 # Physically sound, self-learning digital twins for sloshing fluids
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)]()
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234569)
 
 
 </div>
